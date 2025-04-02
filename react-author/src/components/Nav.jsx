@@ -5,6 +5,7 @@ const Nav = () => {
     <nav className='w-full flex gap-4 bg-[#333] text-white text-[30px] px-[50px]'>
         <Link to="/">Home</Link>
         <Link to="/library">Library</Link>
+        <Link to="/new-article">Create</Link>
     </nav>
   )
 }
